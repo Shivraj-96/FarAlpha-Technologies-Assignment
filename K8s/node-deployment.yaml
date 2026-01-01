@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+      - name: node-app
+        image: <your-dockerhub-username>/node-mongo-app:latest
+        ports:
+          - containerPort: 5000
+        env:
+          - name: MONGODB_URI
+            value: mongodb://admin:password@mongo:27017/node_db?authSource=admin
+        resources:
+          requests:
+            cpu: "0.2"
+            memory: "250Mi"
+          limits:
+            cpu: "0.5"
+            memory: "500Mi"
