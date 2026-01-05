@@ -26,37 +26,6 @@ The application is simple, stable, and production-ready, focusing on clean struc
 * Node.js installed
 * npm installed
 
-### 🔹 Steps
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/Shivraj-96/FarAlpha-Technologies-Assignment.git
-   cd FarAlpha-Technologies-Assignment
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the server**
-
-   ```bash
-   node app.js
-   ```
-
-   OR
-
-   ```bash
-   npm start
-   ```
-
-4. **Access the application**
-
-   * Open browser or Postman
-   * Visit: `http://localhost:5000`
 
 ---
 
