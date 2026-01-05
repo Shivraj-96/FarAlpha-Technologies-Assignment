@@ -15,20 +15,7 @@ The application is simple, stable, and production-ready, focusing on clean struc
 
 ---
 
-## 📂 Project Structure
 
-```
-FarAlpha-Technologies-Assignment/
-├── K8s/                      # Kubernetes configuration files
-├── .env                      # Environment variables
-├── Dockerfile                # Docker build instructions
-├── app.js                    # Main server file
-├── package.json              # Dependencies and scripts
-├── package-lock.json         # Dependency lock file
-├── .gitignore                # Ignored files
-├── node_modules/             # Installed packages
-└── README.md                 # Project documentation
-```
 
 ---
 
