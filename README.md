@@ -1,4 +1,4 @@
-## 📌 Project Overview
+##  Project Overview
 
 This project is a **Node.js backend server** developed as part of the **FarAlpha Technologies assignment**. The main goal of this assignment is to demonstrate backend development fundamentals along with modern deployment practices using **Docker** and **Kubernetes**.
 
@@ -6,7 +6,7 @@ The application is simple, stable, and production-ready, focusing on clean struc
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend:** Node.js (Express.js)
 * **Containerization:** Docker
@@ -19,9 +19,9 @@ The application is simple, stable, and production-ready, focusing on clean struc
 
 ---
 
-## 🚀 How to Run the Project Locally
+##  How to Run the Project Locally
 
-### 🔹 Prerequisites
+###  Prerequisites
 
 * Node.js installed
 * npm installed
@@ -29,7 +29,7 @@ The application is simple, stable, and production-ready, focusing on clean struc
 
 ---
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Build Docker Image
 
@@ -47,7 +47,7 @@ This confirms that the application runs correctly inside a Docker container.
 
 ---
 
-## ☸️ Kubernetes Deployment
+##  Kubernetes Deployment
 
 The `K8s` folder contains Kubernetes configuration files that can be used to deploy this application in a cluster environment.
 
@@ -61,7 +61,7 @@ This setup shows readiness for **scalable and cloud-native deployment**.
 
 ---
 
-## 📊 Results
+##  Results
 
 * The backend server started successfully on the local system.
 * The application listened on the configured port without errors.
@@ -71,7 +71,7 @@ This setup shows readiness for **scalable and cloud-native deployment**.
 
 ---
 
-## 🧪 Observations
+##  Observations
 
 * The project demonstrates a clear understanding of Node.js backend fundamentals.
 * Docker ensures consistent behavior across different environments.
@@ -81,6 +81,6 @@ This setup shows readiness for **scalable and cloud-native deployment**.
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 This assignment successfully meets the objectives of building, containerizing, and preparing a backend application for deployment. It reflects practical backend knowledge along with awareness of DevOps and deployment workflows, making it suitable for real-world applications.
